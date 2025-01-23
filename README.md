@@ -27,3 +27,39 @@ DNS Lookup for Bing.com
   Resolved Bing.com’s IPv6 and IPv4 addresses.
 DNS Lookup for Champlain.edu
   DNS server resolved multiple IPv6 and IPv4 addresses for Champlain’s website.
+
+
+
+
+
+Lab 2: 
+
+Open Packet Tracer: Launch the application and open a new project.
+Add Workstations:
+  Navigate to the End Devices category in the bottom-left menu.
+  Select a PC (Generic PC) and drag it to the workspace.
+  Repeat for additional workstations as needed.
+Add Switches:
+  Navigate to the Switches category in the bottom-left menu.
+  Select a switch (2960 Switch) and drag it to the workspace.
+  Place it near the workstations.
+
+
+
+Select a Cable:
+  Go to the Connections menu (lightning bolt icon in the bottom-left toolbar).
+  Choose the appropriate cable type: Copper Straight-Through: Use to connect workstations to switches.
+  Copper Cross-Over: Use to connect switches to each other.
+  Console Cable: Use to access the switch CLI via a workstation.
+Connect Devices: Click on the first device (e.g., PC) and select its port (e.g., FastEthernet0).
+  Click on the second device (e.g., switch) and select an appropriate port (e.g., FastEthernet0/1).
+  Repeat for other devices.
+Check Connectivity:
+  Once all devices are connected, look for green status lights on the ports. If red, troubleshoot cable type or device configurations.
+
+Accessing the Command-Line Terminal on a PC
+  Open the PC: Click on the PC icon in the workspace.
+  This opens the PC configuration window.
+Go to the Desktop Tab: Click on the Desktop tab at the top of the configuration window.
+Open the Command Prompt: Select Command Prompt to access the CLI for the PC.
+  You can now perform operations like ping, ipconfig, or test connectivity to other devices.
